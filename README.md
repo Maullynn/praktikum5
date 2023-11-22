@@ -35,25 +35,25 @@
      kontak["Dina"] = "088999776"
      Menambahkan entri baru untuk "Riko" dan memperbarui nomor untuk "Dina"
   4 Menambahkan entri baru untuk "Riko" dan memperbarui nomor untuk "Dina"
-print("\nSemua Nama: ")
-for nama in kontak:
+     print("\nSemua Nama: ")
+     for nama in kontak:
     print(nama)
 
-print("\nSemua Nomor: ")
-for nomor in kontak.values():
+     print("\nSemua Nomor: ")
+     for nomor in kontak.values():
     print(nomor)
 
-print("\nDaftar Nama dan Nomor: ")
-for nama, nomor in kontak.items():
+    print("\nDaftar Nama dan Nomor: ")
+    for nama, nomor in kontak.items():
     print(nama, "|", nomor)
-Menggunakan loop untuk menampilkan semua nama, semua nomor, dan daftar nama beserta nomornya dalam dictionary.
+    Menggunakan loop untuk menampilkan semua nama, semua nomor, dan daftar      nama beserta nomornya dalam dictionary.
   5. del kontak["Dina"]
-  Menghapus entri untuk "Dina" dari dictionary.
+    Menghapus entri untuk "Dina" dari dictionary.
   6. Menampilkan Dictionary Setelah Penghapusan
-  print("\nDaftar Kontak Setelah Dihapus: ")
-for nama, nomor in kontak.items():
+    print("\nDaftar Kontak Setelah Dihapus: ")
+    for nama, nomor in kontak.items():
     print(nama, "|", nomor)
-Menampilkan daftar kontak setelah entri "Dina" dihapus.
+    Menampilkan daftar kontak setelah entri "Dina" dihapus.
 ## output
 ![Uploading Screenshot (250).png…]()
 
