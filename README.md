@@ -1,7 +1,7 @@
-## praktikum5
+![Screenshot (248)](https://github.com/Maullynn/praktikum5/assets/144296695/11ecd21c-f02b-48ef-81a6-a94cfaaca33e)## praktikum5
 | Variable       |    DATA DIRI     |
 | ---------------| ---------------- |
-| Nama           | Muhammad Maulana |                                          
+| Nama           | Muhammad Maulana |                                       
 | NIM            | 312310475        |
 | Kelas          | TI.23.A.5        |
 | Mata Kuliah    |Bahasa Pemrograman|
@@ -54,10 +54,34 @@
     for nama, nomor in kontak.items():
     print(nama, "|", nomor)
     Menampilkan daftar kontak setelah entri "Dina" dihapus.
-## output
-![Uploading Screenshot (250).png…]()
+## OUTPUT
+![Screenshot (250)](https://github.com/Maullynn/praktikum5/assets/144296695/40467e84-bf0d-4e69-b9f1-f41b62431d95)
+
 
 ## PRAKTIKUM
+1. **Fungsi Tambah Data (`tambah_data`):**
+   - Meminta input NIM, nama, nilai tugas, nilai UTS, dan nilai UAS dari pengguna.
+   - Menghitung nilai akhir berdasarkan bobot tertentu.
+   - Menambahkan data mahasiswa ke dalam dictionary `data_mahasiswa`.
+
+2. **Fungsi Tampilkan Data (`tampilkan_data`):**
+   - Membuat tabel menggunakan PrettyTable untuk menampilkan data mahasiswa.
+   - Jika data mahasiswa tidak ada, mencetak pesan bahwa data kosong.
+
+3. **Fungsi Ubah Data (`ubah_data`):**
+   - Meminta input NIM mahasiswa yang ingin diubah datanya.
+   - Jika NIM tersebut ditemukan, meminta input nilai baru untuk tugas, UTS, dan UAS.
+   - Menghitung nilai akhir baru.
+   - Mengubah data mahasiswa yang sesuai.
+
+4. **Menu Utama:**
+   - Dalam blok `if __name__ == "__main__":`, program membuat dictionary kosong `data_mahasiswa`.
+   - Menampilkan menu pilihan kepada pengguna (tambah data, ubah data, hapus data, tampilkan data, cari data, keluar).
+   - Menggunakan loop untuk terus menampilkan menu dan menerima input pengguna sampai pengguna memilih keluar (`6`).
+
+Program ini memanfaatkan dictionary untuk menyimpan data mahasiswa dan PrettyTable untuk menyajikan data dalam bentuk tabel yang terstruktur. Jadi, pengguna dapat menambah, mengubah, dan menampilkan data mahasiswa dengan lebih mudah dan terorganisir.
+## OUTPUT
+![Screenshot (248)](https://github.com/Maullynn/praktikum5/assets/144296695/d445bc3f-bd01-4652-b0f3-f4f1c3789a54)
 
 
 
